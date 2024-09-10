@@ -19,7 +19,7 @@
   </head>
 
   <body>
-    <header class="container_header">
+    <header class="container_header" id="inicio">
       <div class="container__header">
         <a href="#"
           ><img
@@ -85,7 +85,7 @@
       </div>
     </main>
     <section class="container__technology__text">
-      <h2>Tecnologias</h2>
+      <h2 id="tecnologias"tecnologias>Tecnologias</h2>
       
       <p class="subtitle_technology">
         Tornamos suas ideias reais no mundo digital!<br>
@@ -128,13 +128,13 @@
           <p class="text__button__three">Não importa qual o tipo do seu negócio, transformamos sua presença online com sites personalizados e de alto desempenho. Clique no botão abaixo e entre em contato conosco e solicite um orçamento sem compromisso. Temos soluções sob medida para atender às suas necessidades.</p>
         </div>
         <div>
-          <a href="#" target="_blank" class="button_three"> <i class="fa-brands fa-whatsapp"></i> Fale conosco!</a>
+          <a href="#" target="_blank" class="button_three"> <i class="fa-brands fa-whatsapp"></i>Fale conosco</a>
         </div>
       </div>
     </section>
 
     <aside class="container_aside">
-      <div class="container_hosp">
+      <div class="container_hosp" id="hospedagem">
         <h2>Procurando por uma Hospedagem?</h2>
         <ul class="list_hosp">
           <li class="list__hosp">Certificado de Segurança SSL</li>
@@ -147,10 +147,10 @@
         <p class="text__button__hosp">Clique no botão abaixo e veja todos os benefícios para contratar sua hospedagem hoje mesmo.</p>
       </div>
       <div>
-        <a href="#" target="_blank" class="button_hosp">Clique para saber mais!</a>
+        <a href="#" target="_blank" class="button_hosp">Saber mais...</a>
       </div>
 
-      <div class="container_bot">
+      <div class="container_bot" id="whatsapp">
         <h2 class="title_bot">WhatsApp no Automático</h2>
         <p class="title_bot">Potencialize seu negócio com Atendimentos Automáticos no WhatsApp que convertem conversas em vendas!</p>
         <div>
@@ -193,7 +193,7 @@
             </ul>  
           </div>  
           <div class="container__button_bot">
-            <a href="#" target="_blank" class="button_hosp">Clique para saber mais!</a>
+            <a href="#" target="_blank" class="button_hosp">Saber mais...</a>
           </div>     
         </div>
       </div>  
@@ -224,29 +224,40 @@
       
     </section>
   </div> 
-    <footer>
-          <section class="section_form">
-            <div>
-              <h2 class="title_form">Fale Conosco</h2>
-              <p class="text_form">Envie sua dúvida ou solicite um orçamento</p>
-            </div>
-              <form action="#" method="post" class="form">
-                
-                  <label>Nome</label>
-                  <input type="text" name="nome" placeholder="Digite seu nome" id="nome" autocomplete="off" class="inputs">
-                
-                  <label for="">WhatsApp</label>
-                  <input type="tel" name="whatsapp" placeholder="Digite seu WhatsApp" id="whatsapp" autocomplete="off" class="inputs">
-                
-                  <label for="">Email</label>
-                  <input type="email" placeholder="Digite seu email" id="email" autocomplete="off" class="inputs">
-                
-                  <label for="">Mensagem</label>
-                  <textarea name="message" placeholder="Digite sua mensagem" cols="30" rows="6" id="message" class="inputs"></textarea>
-                
-                <button type="submit" class="button_form">Enviar</button>
-              </form>
-          </section>   
+  <div class="container_form">
+    <section class="section_form" id="contato">
+      <div>
+        <h2 class="title_form">Fale Conosco</h2>
+        <p class="text_form">Envie sua dúvida ou solicite um orçamento</p>
+      </div>
+      <form action="#" method="post" class="form">
+        
+          <label>Nome</label>
+          <input type="text" name="nome" placeholder="Digite seu nome" id="nome" autocomplete="off" class="inputs">
+        
+          <label for="">WhatsApp</label>
+          <input type="tel" name="whatsapp" placeholder="Digite seu WhatsApp" id="whatsapp" autocomplete="off" class="inputs">
+        
+          <label for="">Email</label>
+          <input type="email" placeholder="Digite seu email" id="email" autocomplete="off" class="inputs">
+        
+          <label for="">Mensagem</label>
+          <textarea name="message" placeholder="Digite sua mensagem" cols="30" rows="3" id="message" class="inputs"></textarea>
+        
+        <button type="submit" class="button_form">Enviar</button>
+      </form>
+    </section>  
+  </div>   
+    <footer class="container_footer">
+          <div>
+            <ul class="list_item_footer">
+              <li><a href="#inicio" class="item_footer">Início</a></li>
+              <li><a href="#tecnologias" class="item_footer">Tecnologias</a></li>
+              <li><a href="#hospedagem" class="item_footer">Hospedagem</a></li>
+              <li><a href="#whatsapp" class="item_footer">WhatsApp</a></li>
+              <li><a href="#contato" class="item_footer">Contato</a></li>
+            </ul>
+          </div>
           <div class="copyright">
               <p class="text_copyright">iBRSystem © 2024 Todos os direitos reservados.</p>
           </div>
