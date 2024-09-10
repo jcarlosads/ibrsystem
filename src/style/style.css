@@ -272,7 +272,7 @@
     border-radius: 6px;
     border-style: none;
     box-shadow: 5px 5px 5px var(--black);
-    padding: 15px 100px 15px 100px;
+    padding: 15px 100px;
     margin-top: 20px;
   }
 
@@ -290,7 +290,7 @@
     border-radius: 6px;
     border-style: none;
     box-shadow: 5px 5px 5px var(--black);
-    padding: 15px 80px 15px 80px;
+    padding: 20px 80px;
   }
 
   .button_two:hover {
@@ -369,7 +369,7 @@
     font-weight: 500;
     border-radius: 6px;
     border-style: none;
-    padding: 15px 70px;
+    padding: 20px 80px;
   }
 
   .button_three:hover {
@@ -396,10 +396,6 @@
     margin-top: 20px;
   }
 
-  .cloud-1 {
-    
-  }
-
   .container_button_hosp {
     margin: 30px;
   }
@@ -417,7 +413,7 @@
     font-weight: 500;
     border-radius: 6px;
     border-style: none;
-    padding: 15px 65px;
+    padding: 20px 80px;
   }
 
   .button_hosp:hover {
@@ -543,6 +539,7 @@
     margin-bottom: 10px;
     color: var(--blueSecundary);
     background-color: var(--white);
+    padding: 20px 80px;
   }
 
   .button_form:hover {
